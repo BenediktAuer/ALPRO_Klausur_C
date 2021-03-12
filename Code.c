@@ -8,7 +8,7 @@ void sort(int *array, int elemente){
        
         int eltemp = elemente--;
         for (i = 1; i <= elemente; i++) {
-            /* code */
+            
             if(array[i-1] > array[i]){
                 temp = array[i];
                 array[i]=array[i-1];
